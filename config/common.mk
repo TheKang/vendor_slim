@@ -90,7 +90,6 @@ PRODUCT_PACKAGES += \
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
-    SlimCenter \
     SlimLauncher \
     LatinIME \
     BluetoothExt \
@@ -109,6 +108,16 @@ PRODUCT_PACKAGES += \
     mkfs.exfat \
     ntfsfix \
     ntfs-3g
+
+# Openssh
+PRODUCT_PACKAGES += \
+    scp \
+    sftp \
+    ssh \
+    sshd \
+    sshd_config \
+    ssh-keygen \
+    start-ssh
 
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
