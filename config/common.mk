@@ -82,10 +82,8 @@ PRODUCT_PACKAGES += \
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
-    SlimCenter \
     SlimFileManager \
     LatinIME \
-    SlimIRC \
     BluetoothExt \
     DashClock
 
@@ -98,6 +96,16 @@ PRODUCT_PACKAGES += \
     mount.exfat \
     fsck.exfat \
     mkfs.exfat
+
+# Openssh
+PRODUCT_PACKAGES += \
+    scp \
+    sftp \
+    ssh \
+    sshd \
+    sshd_config \
+    ssh-keygen \
+    start-ssh
 
 # easy way to extend to add more packages
 -include vendor/extra/product.mk
